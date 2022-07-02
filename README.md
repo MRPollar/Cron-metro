@@ -1,2 +1,2 @@
-# Cron-metro
+# Cronômetro
  cronômetro simples
