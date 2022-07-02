@@ -10,41 +10,47 @@
 </head>
 <body class="background">
 	<div class="container">
+
 		<div class="container-crono">
 			<div class="cronometro">
 					<h1 id="outTemporizador">00:00</h1>
-			</div>
-		</div>
+			</div><!--cronometro-->
+		</div><!--container-crono-->
+
 		<p id="outAviso">Cronômetro</p>
+
 		<div class="buttons">
 			<input type="button" id="btnIniciar" value="Iniciar"/>
 			<input type="button" id="btnParar" value="Parar"/>
 			<input type="button" id="btnResetar" value="Resetar"/>
 			<input type="button" id="btnRegressivo" value="Contagem"/>
-		</div>
+		</div><!--buttons-->
+
 		<div class="audio-container">
 			<img src="img/g-clef-nota-musical.png">
 			<audio src="song/Power-Rangers.mp3"></audio>
-		</div>
-	</div>
+		</div><!--audio-container-->
+	</div><!--container-->
+
 	<div class="setTimer">
 		<form>
 			<div class="input-group">
 				<div class="input-wrapper">
 					<label for="inMinute">Minutos</label><br/>
 					<input type="text" id="inMinute"/>
-				</div>
+				</div><!--input-wrapper-->
 				<div class="input-wrapper">
 					<label for="inSecond">Segundos</label><br/>
 					<input type="text" id="inSecond"/>
-				</div>
-			</div>
+				</div><!--input-wrapper-->
+			</div><!--input-group-->
+
 			<div class="input-buttons">
 				<input type="button" value="Iniciar" id="btnSetado"/>
 				<input type="button" value="Cancelar" id="btnCancelar"/>
-			</div>
+			</div><!--input-buttons-->
 		</form>
-	</div>
+	</div><!--set-timer-->
 
 	<script src="js/functions.js"></script>
 </body>
