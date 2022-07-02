@@ -1,6 +1,6 @@
 # Cronômetro
  cronômetro simples
 
- O cronômetro tem as funções de start, pause, reset e contagem regressiva, onde se pode informar o tempo de contagem.
+ Um cronômetro simples com contagem regressiva.
 
  ao final da contagem soara um alarme
